@@ -1,0 +1,13 @@
+{
+  "ID": "b1f35683c19d4e74af4cbf1977ab78f3",
+  "ActionKeyword": "@@",
+  "IsGlobal": false,
+  "Name": "Papago Translator",
+  "Author": "patcher454",
+  "Version": "0.0.1",
+  "Language": "csharp",
+  "Website": "https://github.com/patcher454",
+  "IcoPathDark": "Images\\Papago_Logo.png",
+  "IcoPathLight": "Images\\Papago_Logo.png",
+  "ExecuteFileName": "Community.PowerToys.Run.Plugin.PapagoTranslator.dll"
+}

@@ -1,0 +1,1287 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Plugins\\Community.PowerToys.Run.Plugin.PapagoTranslator\\Community.PowerToys.Run.Plugin.PapagoTranslator.csproj": {}
+  },
+  "projects": {
+    "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\Common.UI\\Common.UI.csproj": {
+      "version": "0.0.1",
+      "restore": {
+        "projectUniqueName": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\Common.UI\\Common.UI.csproj",
+        "projectName": "PowerToys.Common.UI",
+        "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\Common.UI\\Common.UI.csproj",
+        "packagesPath": "C:\\Users\\eunho\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\Common.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\git\\PowerToyDEV\\PowerToys\\NuGet.Config",
+          "C:\\Users\\eunho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedCommon\\ManagedCommon.csproj": {
+                "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedCommon\\ManagedCommon.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "ControlzEx": {
+              "target": "Package",
+              "version": "[6.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.507, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Appium.WebDriver": "[4.2.1, )",
+            "CommunityToolkit.Mvvm": "[8.2.0, )",
+            "CommunityToolkit.WinUI.Animations": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Collections": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.Primitives": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.SettingsControls": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.Sizers": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Converters": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Extensions": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.UI.Controls.DataGrid": "[7.1.2, )",
+            "CommunityToolkit.WinUI.UI.Controls.Markdown": "[7.1.2, )",
+            "ControlzEx": "[6.0.0, )",
+            "coverlet.collector": "[1.3.0, )",
+            "DotNetSeleniumExtras.WaitHelpers": "[3.11.0, )",
+            "HelixToolkit": "[2.20.2, )",
+            "HelixToolkit.Core.Wpf": "[2.20.2, )",
+            "hyjiacan.pinyin4net": "[4.1.1, )",
+            "Interop.Microsoft.Office.Interop.OneNote": "[1.1.0.2, )",
+            "LazyCache": "[2.4.0, )",
+            "Mages": "[2.0.1, )",
+            "Markdig.Signed": "[0.27.0, )",
+            "Microsoft.CodeAnalysis.NetAnalyzers": "[7.0.3, )",
+            "Microsoft.Data.Sqlite": "[7.0.0, )",
+            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": "[0.4.336902, )",
+            "Microsoft.Extensions.DependencyInjection": "[7.0.0, )",
+            "Microsoft.Extensions.Hosting": "[7.0.1, )",
+            "Microsoft.Extensions.Hosting.WindowsServices": "[7.0.0, )",
+            "Microsoft.Extensions.Logging": "[7.0.0, )",
+            "Microsoft.NET.Test.Sdk": "[17.6.3, )",
+            "Microsoft.Toolkit.Uwp.Notifications": "[7.1.2, )",
+            "Microsoft.Web.WebView2": "[1.0.1722.45, )",
+            "Microsoft.Windows.Compatibility": "[7.0.3, )",
+            "Microsoft.Windows.CsWin32": "[0.2.46-beta, )",
+            "Microsoft.Windows.CsWinRT": "[2.0.3, )",
+            "Microsoft.Windows.SDK.BuildTools": "[10.0.22621.756, )",
+            "Microsoft.Windows.SDK.Contracts": "[10.0.19041.1, )",
+            "Microsoft.WindowsAppSDK": "[1.4.230913002, )",
+            "Microsoft.Xaml.Behaviors.WinUI.Managed": "[2.0.9, )",
+            "Microsoft.Xaml.Behaviors.Wpf": "[1.1.39, )",
+            "ModernWpfUI": "[0.9.4, )",
+            "Moq": "[4.18.4, )",
+            "MSTest.TestAdapter": "[3.1.1, )",
+            "MSTest.TestFramework": "[3.1.1, )",
+            "Newtonsoft.Json": "[13.0.1, )",
+            "NLog": "[5.0.4, )",
+            "NLog.Extensions.Logging": "[5.0.4, )",
+            "NLog.Schema": "[5.0.4, )",
+            "ScipBe.Common.Office.OneNote": "[3.0.1, )",
+            "SharpCompress": "[0.33.0, )",
+            "StreamJsonRpc": "[2.14.24, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.507, )",
+            "System.CommandLine": "[2.0.0-beta4.22272.1, )",
+            "System.ComponentModel.Composition": "[7.0.0, )",
+            "System.Configuration.ConfigurationManager": "[6.0.0, )",
+            "System.Data.OleDb": "[7.0.0, )",
+            "System.Drawing.Common": "[7.0.0, )",
+            "System.IO.Abstractions": "[17.2.3, )",
+            "System.IO.Abstractions.TestingHelpers": "[17.2.3, )",
+            "System.Management": "[7.0.2, )",
+            "System.Reactive": "[6.0.0-preview.9, )",
+            "System.Runtime.Caching": "[7.0.0, )",
+            "System.ServiceProcess.ServiceController": "[7.0.1, )",
+            "UnicodeInformation": "[2.6.0, )",
+            "UnitsNet": "[4.145.0, )",
+            "Vanara.PInvoke.Shell32": "[3.4.11, )",
+            "Vanara.PInvoke.User32": "[3.4.11, )",
+            "WinUIEx": "[2.2.0, )",
+            "WPF-UI": "[3.0.0-preview.4, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-arm64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[7.0.11, 7.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\interop\\PowerToys.Interop.vcxproj": {
+      "restore": {
+        "projectUniqueName": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\interop\\PowerToys.Interop.vcxproj",
+        "projectName": "PowerToys.Interop",
+        "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\interop\\PowerToys.Interop.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedCommon\\ManagedCommon.csproj": {
+      "version": "0.0.1",
+      "restore": {
+        "projectUniqueName": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedCommon\\ManagedCommon.csproj",
+        "projectName": "PowerToys.ManagedCommon",
+        "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedCommon\\ManagedCommon.csproj",
+        "packagesPath": "C:\\Users\\eunho\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedCommon\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\git\\PowerToyDEV\\PowerToys\\NuGet.Config",
+          "C:\\Users\\eunho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\interop\\PowerToys.Interop.vcxproj": {
+                "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\interop\\PowerToys.Interop.vcxproj"
+              },
+              "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedTelemetry\\Telemetry\\ManagedTelemetry.csproj": {
+                "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedTelemetry\\Telemetry\\ManagedTelemetry.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.507, )",
+              "versionCentrallyManaged": true
+            },
+            "System.IO.Abstractions": {
+              "target": "Package",
+              "version": "[17.2.3, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[7.0.2, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Appium.WebDriver": "[4.2.1, )",
+            "CommunityToolkit.Mvvm": "[8.2.0, )",
+            "CommunityToolkit.WinUI.Animations": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Collections": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.Primitives": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.SettingsControls": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.Sizers": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Converters": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Extensions": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.UI.Controls.DataGrid": "[7.1.2, )",
+            "CommunityToolkit.WinUI.UI.Controls.Markdown": "[7.1.2, )",
+            "ControlzEx": "[6.0.0, )",
+            "coverlet.collector": "[1.3.0, )",
+            "DotNetSeleniumExtras.WaitHelpers": "[3.11.0, )",
+            "HelixToolkit": "[2.20.2, )",
+            "HelixToolkit.Core.Wpf": "[2.20.2, )",
+            "hyjiacan.pinyin4net": "[4.1.1, )",
+            "Interop.Microsoft.Office.Interop.OneNote": "[1.1.0.2, )",
+            "LazyCache": "[2.4.0, )",
+            "Mages": "[2.0.1, )",
+            "Markdig.Signed": "[0.27.0, )",
+            "Microsoft.CodeAnalysis.NetAnalyzers": "[7.0.3, )",
+            "Microsoft.Data.Sqlite": "[7.0.0, )",
+            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": "[0.4.336902, )",
+            "Microsoft.Extensions.DependencyInjection": "[7.0.0, )",
+            "Microsoft.Extensions.Hosting": "[7.0.1, )",
+            "Microsoft.Extensions.Hosting.WindowsServices": "[7.0.0, )",
+            "Microsoft.Extensions.Logging": "[7.0.0, )",
+            "Microsoft.NET.Test.Sdk": "[17.6.3, )",
+            "Microsoft.Toolkit.Uwp.Notifications": "[7.1.2, )",
+            "Microsoft.Web.WebView2": "[1.0.1722.45, )",
+            "Microsoft.Windows.Compatibility": "[7.0.3, )",
+            "Microsoft.Windows.CsWin32": "[0.2.46-beta, )",
+            "Microsoft.Windows.CsWinRT": "[2.0.3, )",
+            "Microsoft.Windows.SDK.BuildTools": "[10.0.22621.756, )",
+            "Microsoft.Windows.SDK.Contracts": "[10.0.19041.1, )",
+            "Microsoft.WindowsAppSDK": "[1.4.230913002, )",
+            "Microsoft.Xaml.Behaviors.WinUI.Managed": "[2.0.9, )",
+            "Microsoft.Xaml.Behaviors.Wpf": "[1.1.39, )",
+            "ModernWpfUI": "[0.9.4, )",
+            "Moq": "[4.18.4, )",
+            "MSTest.TestAdapter": "[3.1.1, )",
+            "MSTest.TestFramework": "[3.1.1, )",
+            "Newtonsoft.Json": "[13.0.1, )",
+            "NLog": "[5.0.4, )",
+            "NLog.Extensions.Logging": "[5.0.4, )",
+            "NLog.Schema": "[5.0.4, )",
+            "ScipBe.Common.Office.OneNote": "[3.0.1, )",
+            "SharpCompress": "[0.33.0, )",
+            "StreamJsonRpc": "[2.14.24, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.507, )",
+            "System.CommandLine": "[2.0.0-beta4.22272.1, )",
+            "System.ComponentModel.Composition": "[7.0.0, )",
+            "System.Configuration.ConfigurationManager": "[6.0.0, )",
+            "System.Data.OleDb": "[7.0.0, )",
+            "System.Drawing.Common": "[7.0.0, )",
+            "System.IO.Abstractions": "[17.2.3, )",
+            "System.IO.Abstractions.TestingHelpers": "[17.2.3, )",
+            "System.Management": "[7.0.2, )",
+            "System.Reactive": "[6.0.0-preview.9, )",
+            "System.Runtime.Caching": "[7.0.0, )",
+            "System.ServiceProcess.ServiceController": "[7.0.1, )",
+            "UnicodeInformation": "[2.6.0, )",
+            "UnitsNet": "[4.145.0, )",
+            "Vanara.PInvoke.Shell32": "[3.4.11, )",
+            "Vanara.PInvoke.User32": "[3.4.11, )",
+            "WinUIEx": "[2.2.0, )",
+            "WPF-UI": "[3.0.0-preview.4, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-arm64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[7.0.11, 7.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedTelemetry\\Telemetry\\ManagedTelemetry.csproj": {
+      "version": "0.0.1",
+      "restore": {
+        "projectUniqueName": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedTelemetry\\Telemetry\\ManagedTelemetry.csproj",
+        "projectName": "PowerToys.ManagedTelemetry",
+        "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedTelemetry\\Telemetry\\ManagedTelemetry.csproj",
+        "packagesPath": "C:\\Users\\eunho\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedTelemetry\\Telemetry\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\git\\PowerToyDEV\\PowerToys\\NuGet.Config",
+          "C:\\Users\\eunho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.507, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Appium.WebDriver": "[4.2.1, )",
+            "CommunityToolkit.Mvvm": "[8.2.0, )",
+            "CommunityToolkit.WinUI.Animations": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Collections": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.Primitives": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.SettingsControls": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.Sizers": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Converters": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Extensions": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.UI.Controls.DataGrid": "[7.1.2, )",
+            "CommunityToolkit.WinUI.UI.Controls.Markdown": "[7.1.2, )",
+            "ControlzEx": "[6.0.0, )",
+            "coverlet.collector": "[1.3.0, )",
+            "DotNetSeleniumExtras.WaitHelpers": "[3.11.0, )",
+            "HelixToolkit": "[2.20.2, )",
+            "HelixToolkit.Core.Wpf": "[2.20.2, )",
+            "hyjiacan.pinyin4net": "[4.1.1, )",
+            "Interop.Microsoft.Office.Interop.OneNote": "[1.1.0.2, )",
+            "LazyCache": "[2.4.0, )",
+            "Mages": "[2.0.1, )",
+            "Markdig.Signed": "[0.27.0, )",
+            "Microsoft.CodeAnalysis.NetAnalyzers": "[7.0.3, )",
+            "Microsoft.Data.Sqlite": "[7.0.0, )",
+            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": "[0.4.336902, )",
+            "Microsoft.Extensions.DependencyInjection": "[7.0.0, )",
+            "Microsoft.Extensions.Hosting": "[7.0.1, )",
+            "Microsoft.Extensions.Hosting.WindowsServices": "[7.0.0, )",
+            "Microsoft.Extensions.Logging": "[7.0.0, )",
+            "Microsoft.NET.Test.Sdk": "[17.6.3, )",
+            "Microsoft.Toolkit.Uwp.Notifications": "[7.1.2, )",
+            "Microsoft.Web.WebView2": "[1.0.1722.45, )",
+            "Microsoft.Windows.Compatibility": "[7.0.3, )",
+            "Microsoft.Windows.CsWin32": "[0.2.46-beta, )",
+            "Microsoft.Windows.CsWinRT": "[2.0.3, )",
+            "Microsoft.Windows.SDK.BuildTools": "[10.0.22621.756, )",
+            "Microsoft.Windows.SDK.Contracts": "[10.0.19041.1, )",
+            "Microsoft.WindowsAppSDK": "[1.4.230913002, )",
+            "Microsoft.Xaml.Behaviors.WinUI.Managed": "[2.0.9, )",
+            "Microsoft.Xaml.Behaviors.Wpf": "[1.1.39, )",
+            "ModernWpfUI": "[0.9.4, )",
+            "Moq": "[4.18.4, )",
+            "MSTest.TestAdapter": "[3.1.1, )",
+            "MSTest.TestFramework": "[3.1.1, )",
+            "Newtonsoft.Json": "[13.0.1, )",
+            "NLog": "[5.0.4, )",
+            "NLog.Extensions.Logging": "[5.0.4, )",
+            "NLog.Schema": "[5.0.4, )",
+            "ScipBe.Common.Office.OneNote": "[3.0.1, )",
+            "SharpCompress": "[0.33.0, )",
+            "StreamJsonRpc": "[2.14.24, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.507, )",
+            "System.CommandLine": "[2.0.0-beta4.22272.1, )",
+            "System.ComponentModel.Composition": "[7.0.0, )",
+            "System.Configuration.ConfigurationManager": "[6.0.0, )",
+            "System.Data.OleDb": "[7.0.0, )",
+            "System.Drawing.Common": "[7.0.0, )",
+            "System.IO.Abstractions": "[17.2.3, )",
+            "System.IO.Abstractions.TestingHelpers": "[17.2.3, )",
+            "System.Management": "[7.0.2, )",
+            "System.Reactive": "[6.0.0-preview.9, )",
+            "System.Runtime.Caching": "[7.0.0, )",
+            "System.ServiceProcess.ServiceController": "[7.0.1, )",
+            "UnicodeInformation": "[2.6.0, )",
+            "UnitsNet": "[4.145.0, )",
+            "Vanara.PInvoke.Shell32": "[3.4.11, )",
+            "Vanara.PInvoke.User32": "[3.4.11, )",
+            "WinUIEx": "[2.2.0, )",
+            "WPF-UI": "[3.0.0-preview.4, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-arm64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[7.0.11, 7.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Plugins\\Community.PowerToys.Run.Plugin.PapagoTranslator\\Community.PowerToys.Run.Plugin.PapagoTranslator.csproj": {
+      "version": "0.0.1",
+      "restore": {
+        "projectUniqueName": "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Plugins\\Community.PowerToys.Run.Plugin.PapagoTranslator\\Community.PowerToys.Run.Plugin.PapagoTranslator.csproj",
+        "projectName": "Community.PowerToys.Run.Plugin.PapagoTranslator",
+        "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Plugins\\Community.PowerToys.Run.Plugin.PapagoTranslator\\Community.PowerToys.Run.Plugin.PapagoTranslator.csproj",
+        "packagesPath": "C:\\Users\\eunho\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Plugins\\Community.PowerToys.Run.Plugin.PapagoTranslator\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\git\\PowerToyDEV\\PowerToys\\NuGet.Config",
+          "C:\\Users\\eunho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Wox.Infrastructure\\Wox.Infrastructure.csproj": {
+                "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Wox.Infrastructure\\Wox.Infrastructure.csproj"
+              },
+              "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Wox.Plugin\\Wox.Plugin.csproj": {
+                "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Wox.Plugin\\Wox.Plugin.csproj"
+              },
+              "D:\\git\\PowerToyDEV\\PowerToys\\src\\settings-ui\\Settings.UI.Library\\Settings.UI.Library.csproj": {
+                "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\settings-ui\\Settings.UI.Library\\Settings.UI.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.507, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Appium.WebDriver": "[4.2.1, )",
+            "CommunityToolkit.Mvvm": "[8.2.0, )",
+            "CommunityToolkit.WinUI.Animations": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Collections": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.Primitives": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.SettingsControls": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.Sizers": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Converters": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Extensions": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.UI.Controls.DataGrid": "[7.1.2, )",
+            "CommunityToolkit.WinUI.UI.Controls.Markdown": "[7.1.2, )",
+            "ControlzEx": "[6.0.0, )",
+            "coverlet.collector": "[1.3.0, )",
+            "DotNetSeleniumExtras.WaitHelpers": "[3.11.0, )",
+            "HelixToolkit": "[2.20.2, )",
+            "HelixToolkit.Core.Wpf": "[2.20.2, )",
+            "hyjiacan.pinyin4net": "[4.1.1, )",
+            "Interop.Microsoft.Office.Interop.OneNote": "[1.1.0.2, )",
+            "LazyCache": "[2.4.0, )",
+            "Mages": "[2.0.1, )",
+            "Markdig.Signed": "[0.27.0, )",
+            "Microsoft.CodeAnalysis.NetAnalyzers": "[7.0.3, )",
+            "Microsoft.Data.Sqlite": "[7.0.0, )",
+            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": "[0.4.336902, )",
+            "Microsoft.Extensions.DependencyInjection": "[7.0.0, )",
+            "Microsoft.Extensions.Hosting": "[7.0.1, )",
+            "Microsoft.Extensions.Hosting.WindowsServices": "[7.0.0, )",
+            "Microsoft.Extensions.Logging": "[7.0.0, )",
+            "Microsoft.NET.Test.Sdk": "[17.6.3, )",
+            "Microsoft.Toolkit.Uwp.Notifications": "[7.1.2, )",
+            "Microsoft.Web.WebView2": "[1.0.1722.45, )",
+            "Microsoft.Windows.Compatibility": "[7.0.3, )",
+            "Microsoft.Windows.CsWin32": "[0.2.46-beta, )",
+            "Microsoft.Windows.CsWinRT": "[2.0.3, )",
+            "Microsoft.Windows.SDK.BuildTools": "[10.0.22621.756, )",
+            "Microsoft.Windows.SDK.Contracts": "[10.0.19041.1, )",
+            "Microsoft.WindowsAppSDK": "[1.4.230913002, )",
+            "Microsoft.Xaml.Behaviors.WinUI.Managed": "[2.0.9, )",
+            "Microsoft.Xaml.Behaviors.Wpf": "[1.1.39, )",
+            "ModernWpfUI": "[0.9.4, )",
+            "Moq": "[4.18.4, )",
+            "MSTest.TestAdapter": "[3.1.1, )",
+            "MSTest.TestFramework": "[3.1.1, )",
+            "Newtonsoft.Json": "[13.0.1, )",
+            "NLog": "[5.0.4, )",
+            "NLog.Extensions.Logging": "[5.0.4, )",
+            "NLog.Schema": "[5.0.4, )",
+            "ScipBe.Common.Office.OneNote": "[3.0.1, )",
+            "SharpCompress": "[0.33.0, )",
+            "StreamJsonRpc": "[2.14.24, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.507, )",
+            "System.CommandLine": "[2.0.0-beta4.22272.1, )",
+            "System.ComponentModel.Composition": "[7.0.0, )",
+            "System.Configuration.ConfigurationManager": "[6.0.0, )",
+            "System.Data.OleDb": "[7.0.0, )",
+            "System.Drawing.Common": "[7.0.0, )",
+            "System.IO.Abstractions": "[17.2.3, )",
+            "System.IO.Abstractions.TestingHelpers": "[17.2.3, )",
+            "System.Management": "[7.0.2, )",
+            "System.Reactive": "[6.0.0-preview.9, )",
+            "System.Runtime.Caching": "[7.0.0, )",
+            "System.ServiceProcess.ServiceController": "[7.0.1, )",
+            "UnicodeInformation": "[2.6.0, )",
+            "UnitsNet": "[4.145.0, )",
+            "Vanara.PInvoke.Shell32": "[3.4.11, )",
+            "Vanara.PInvoke.User32": "[3.4.11, )",
+            "WinUIEx": "[2.2.0, )",
+            "WPF-UI": "[3.0.0-preview.4, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Wox.Infrastructure\\Wox.Infrastructure.csproj": {
+      "version": "0.0.1",
+      "restore": {
+        "projectUniqueName": "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Wox.Infrastructure\\Wox.Infrastructure.csproj",
+        "projectName": "Wox.Infrastructure",
+        "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Wox.Infrastructure\\Wox.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\eunho\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Wox.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\git\\PowerToyDEV\\PowerToys\\NuGet.Config",
+          "C:\\Users\\eunho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Wox.Plugin\\Wox.Plugin.csproj": {
+                "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Wox.Plugin\\Wox.Plugin.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "NLog.Schema": {
+              "target": "Package",
+              "version": "[5.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.507, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "System.IO.Abstractions": {
+              "target": "Package",
+              "version": "[17.2.3, )",
+              "versionCentrallyManaged": true
+            },
+            "hyjiacan.pinyin4net": {
+              "target": "Package",
+              "version": "[4.1.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Appium.WebDriver": "[4.2.1, )",
+            "CommunityToolkit.Mvvm": "[8.2.0, )",
+            "CommunityToolkit.WinUI.Animations": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Collections": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.Primitives": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.SettingsControls": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.Sizers": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Converters": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Extensions": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.UI.Controls.DataGrid": "[7.1.2, )",
+            "CommunityToolkit.WinUI.UI.Controls.Markdown": "[7.1.2, )",
+            "ControlzEx": "[6.0.0, )",
+            "coverlet.collector": "[1.3.0, )",
+            "DotNetSeleniumExtras.WaitHelpers": "[3.11.0, )",
+            "HelixToolkit": "[2.20.2, )",
+            "HelixToolkit.Core.Wpf": "[2.20.2, )",
+            "hyjiacan.pinyin4net": "[4.1.1, )",
+            "Interop.Microsoft.Office.Interop.OneNote": "[1.1.0.2, )",
+            "LazyCache": "[2.4.0, )",
+            "Mages": "[2.0.1, )",
+            "Markdig.Signed": "[0.27.0, )",
+            "Microsoft.CodeAnalysis.NetAnalyzers": "[7.0.3, )",
+            "Microsoft.Data.Sqlite": "[7.0.0, )",
+            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": "[0.4.336902, )",
+            "Microsoft.Extensions.DependencyInjection": "[7.0.0, )",
+            "Microsoft.Extensions.Hosting": "[7.0.1, )",
+            "Microsoft.Extensions.Hosting.WindowsServices": "[7.0.0, )",
+            "Microsoft.Extensions.Logging": "[7.0.0, )",
+            "Microsoft.NET.Test.Sdk": "[17.6.3, )",
+            "Microsoft.Toolkit.Uwp.Notifications": "[7.1.2, )",
+            "Microsoft.Web.WebView2": "[1.0.1722.45, )",
+            "Microsoft.Windows.Compatibility": "[7.0.3, )",
+            "Microsoft.Windows.CsWin32": "[0.2.46-beta, )",
+            "Microsoft.Windows.CsWinRT": "[2.0.3, )",
+            "Microsoft.Windows.SDK.BuildTools": "[10.0.22621.756, )",
+            "Microsoft.Windows.SDK.Contracts": "[10.0.19041.1, )",
+            "Microsoft.WindowsAppSDK": "[1.4.230913002, )",
+            "Microsoft.Xaml.Behaviors.WinUI.Managed": "[2.0.9, )",
+            "Microsoft.Xaml.Behaviors.Wpf": "[1.1.39, )",
+            "ModernWpfUI": "[0.9.4, )",
+            "Moq": "[4.18.4, )",
+            "MSTest.TestAdapter": "[3.1.1, )",
+            "MSTest.TestFramework": "[3.1.1, )",
+            "Newtonsoft.Json": "[13.0.1, )",
+            "NLog": "[5.0.4, )",
+            "NLog.Extensions.Logging": "[5.0.4, )",
+            "NLog.Schema": "[5.0.4, )",
+            "ScipBe.Common.Office.OneNote": "[3.0.1, )",
+            "SharpCompress": "[0.33.0, )",
+            "StreamJsonRpc": "[2.14.24, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.507, )",
+            "System.CommandLine": "[2.0.0-beta4.22272.1, )",
+            "System.ComponentModel.Composition": "[7.0.0, )",
+            "System.Configuration.ConfigurationManager": "[6.0.0, )",
+            "System.Data.OleDb": "[7.0.0, )",
+            "System.Drawing.Common": "[7.0.0, )",
+            "System.IO.Abstractions": "[17.2.3, )",
+            "System.IO.Abstractions.TestingHelpers": "[17.2.3, )",
+            "System.Management": "[7.0.2, )",
+            "System.Reactive": "[6.0.0-preview.9, )",
+            "System.Runtime.Caching": "[7.0.0, )",
+            "System.ServiceProcess.ServiceController": "[7.0.1, )",
+            "UnicodeInformation": "[2.6.0, )",
+            "UnitsNet": "[4.145.0, )",
+            "Vanara.PInvoke.Shell32": "[3.4.11, )",
+            "Vanara.PInvoke.User32": "[3.4.11, )",
+            "WinUIEx": "[2.2.0, )",
+            "WPF-UI": "[3.0.0-preview.4, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Wox.Plugin\\Wox.Plugin.csproj": {
+      "version": "0.0.1",
+      "restore": {
+        "projectUniqueName": "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Wox.Plugin\\Wox.Plugin.csproj",
+        "projectName": "Wox.Plugin",
+        "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Wox.Plugin\\Wox.Plugin.csproj",
+        "packagesPath": "C:\\Users\\eunho\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\modules\\launcher\\Wox.Plugin\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\git\\PowerToyDEV\\PowerToys\\NuGet.Config",
+          "C:\\Users\\eunho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\Common.UI\\Common.UI.csproj": {
+                "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\Common.UI\\Common.UI.csproj"
+              },
+              "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedCommon\\ManagedCommon.csproj": {
+                "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedCommon\\ManagedCommon.csproj"
+              },
+              "D:\\git\\PowerToyDEV\\PowerToys\\src\\settings-ui\\Settings.UI.Library\\Settings.UI.Library.csproj": {
+                "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\settings-ui\\Settings.UI.Library\\Settings.UI.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.507, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Appium.WebDriver": "[4.2.1, )",
+            "CommunityToolkit.Mvvm": "[8.2.0, )",
+            "CommunityToolkit.WinUI.Animations": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Collections": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.Primitives": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.SettingsControls": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.Sizers": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Converters": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Extensions": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.UI.Controls.DataGrid": "[7.1.2, )",
+            "CommunityToolkit.WinUI.UI.Controls.Markdown": "[7.1.2, )",
+            "ControlzEx": "[6.0.0, )",
+            "coverlet.collector": "[1.3.0, )",
+            "DotNetSeleniumExtras.WaitHelpers": "[3.11.0, )",
+            "HelixToolkit": "[2.20.2, )",
+            "HelixToolkit.Core.Wpf": "[2.20.2, )",
+            "hyjiacan.pinyin4net": "[4.1.1, )",
+            "Interop.Microsoft.Office.Interop.OneNote": "[1.1.0.2, )",
+            "LazyCache": "[2.4.0, )",
+            "Mages": "[2.0.1, )",
+            "Markdig.Signed": "[0.27.0, )",
+            "Microsoft.CodeAnalysis.NetAnalyzers": "[7.0.3, )",
+            "Microsoft.Data.Sqlite": "[7.0.0, )",
+            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": "[0.4.336902, )",
+            "Microsoft.Extensions.DependencyInjection": "[7.0.0, )",
+            "Microsoft.Extensions.Hosting": "[7.0.1, )",
+            "Microsoft.Extensions.Hosting.WindowsServices": "[7.0.0, )",
+            "Microsoft.Extensions.Logging": "[7.0.0, )",
+            "Microsoft.NET.Test.Sdk": "[17.6.3, )",
+            "Microsoft.Toolkit.Uwp.Notifications": "[7.1.2, )",
+            "Microsoft.Web.WebView2": "[1.0.1722.45, )",
+            "Microsoft.Windows.Compatibility": "[7.0.3, )",
+            "Microsoft.Windows.CsWin32": "[0.2.46-beta, )",
+            "Microsoft.Windows.CsWinRT": "[2.0.3, )",
+            "Microsoft.Windows.SDK.BuildTools": "[10.0.22621.756, )",
+            "Microsoft.Windows.SDK.Contracts": "[10.0.19041.1, )",
+            "Microsoft.WindowsAppSDK": "[1.4.230913002, )",
+            "Microsoft.Xaml.Behaviors.WinUI.Managed": "[2.0.9, )",
+            "Microsoft.Xaml.Behaviors.Wpf": "[1.1.39, )",
+            "ModernWpfUI": "[0.9.4, )",
+            "Moq": "[4.18.4, )",
+            "MSTest.TestAdapter": "[3.1.1, )",
+            "MSTest.TestFramework": "[3.1.1, )",
+            "Newtonsoft.Json": "[13.0.1, )",
+            "NLog": "[5.0.4, )",
+            "NLog.Extensions.Logging": "[5.0.4, )",
+            "NLog.Schema": "[5.0.4, )",
+            "ScipBe.Common.Office.OneNote": "[3.0.1, )",
+            "SharpCompress": "[0.33.0, )",
+            "StreamJsonRpc": "[2.14.24, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.507, )",
+            "System.CommandLine": "[2.0.0-beta4.22272.1, )",
+            "System.ComponentModel.Composition": "[7.0.0, )",
+            "System.Configuration.ConfigurationManager": "[6.0.0, )",
+            "System.Data.OleDb": "[7.0.0, )",
+            "System.Drawing.Common": "[7.0.0, )",
+            "System.IO.Abstractions": "[17.2.3, )",
+            "System.IO.Abstractions.TestingHelpers": "[17.2.3, )",
+            "System.Management": "[7.0.2, )",
+            "System.Reactive": "[6.0.0-preview.9, )",
+            "System.Runtime.Caching": "[7.0.0, )",
+            "System.ServiceProcess.ServiceController": "[7.0.1, )",
+            "UnicodeInformation": "[2.6.0, )",
+            "UnitsNet": "[4.145.0, )",
+            "Vanara.PInvoke.Shell32": "[3.4.11, )",
+            "Vanara.PInvoke.User32": "[3.4.11, )",
+            "WinUIEx": "[2.2.0, )",
+            "WPF-UI": "[3.0.0-preview.4, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\git\\PowerToyDEV\\PowerToys\\src\\settings-ui\\Settings.UI.Library\\Settings.UI.Library.csproj": {
+      "version": "0.0.1",
+      "restore": {
+        "projectUniqueName": "D:\\git\\PowerToyDEV\\PowerToys\\src\\settings-ui\\Settings.UI.Library\\Settings.UI.Library.csproj",
+        "projectName": "PowerToys.Settings.UI.Lib",
+        "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\settings-ui\\Settings.UI.Library\\Settings.UI.Library.csproj",
+        "packagesPath": "C:\\Users\\eunho\\.nuget\\packages\\",
+        "outputPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\settings-ui\\Settings.UI.Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "D:\\git\\PowerToyDEV\\PowerToys\\NuGet.Config",
+          "C:\\Users\\eunho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\interop\\PowerToys.Interop.vcxproj": {
+                "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\interop\\PowerToys.Interop.vcxproj"
+              },
+              "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedCommon\\ManagedCommon.csproj": {
+                "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedCommon\\ManagedCommon.csproj"
+              },
+              "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedTelemetry\\Telemetry\\ManagedTelemetry.csproj": {
+                "projectPath": "D:\\git\\PowerToyDEV\\PowerToys\\src\\common\\ManagedTelemetry\\Telemetry\\ManagedTelemetry.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.507, )",
+              "versionCentrallyManaged": true
+            },
+            "System.IO.Abstractions": {
+              "target": "Package",
+              "version": "[17.2.3, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Appium.WebDriver": "[4.2.1, )",
+            "CommunityToolkit.Mvvm": "[8.2.0, )",
+            "CommunityToolkit.WinUI.Animations": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Collections": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.Primitives": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.SettingsControls": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Controls.Sizers": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Converters": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.Extensions": "[8.0.230907, )",
+            "CommunityToolkit.WinUI.UI.Controls.DataGrid": "[7.1.2, )",
+            "CommunityToolkit.WinUI.UI.Controls.Markdown": "[7.1.2, )",
+            "ControlzEx": "[6.0.0, )",
+            "coverlet.collector": "[1.3.0, )",
+            "DotNetSeleniumExtras.WaitHelpers": "[3.11.0, )",
+            "HelixToolkit": "[2.20.2, )",
+            "HelixToolkit.Core.Wpf": "[2.20.2, )",
+            "hyjiacan.pinyin4net": "[4.1.1, )",
+            "Interop.Microsoft.Office.Interop.OneNote": "[1.1.0.2, )",
+            "LazyCache": "[2.4.0, )",
+            "Mages": "[2.0.1, )",
+            "Markdig.Signed": "[0.27.0, )",
+            "Microsoft.CodeAnalysis.NetAnalyzers": "[7.0.3, )",
+            "Microsoft.Data.Sqlite": "[7.0.0, )",
+            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": "[0.4.336902, )",
+            "Microsoft.Extensions.DependencyInjection": "[7.0.0, )",
+            "Microsoft.Extensions.Hosting": "[7.0.1, )",
+            "Microsoft.Extensions.Hosting.WindowsServices": "[7.0.0, )",
+            "Microsoft.Extensions.Logging": "[7.0.0, )",
+            "Microsoft.NET.Test.Sdk": "[17.6.3, )",
+            "Microsoft.Toolkit.Uwp.Notifications": "[7.1.2, )",
+            "Microsoft.Web.WebView2": "[1.0.1722.45, )",
+            "Microsoft.Windows.Compatibility": "[7.0.3, )",
+            "Microsoft.Windows.CsWin32": "[0.2.46-beta, )",
+            "Microsoft.Windows.CsWinRT": "[2.0.3, )",
+            "Microsoft.Windows.SDK.BuildTools": "[10.0.22621.756, )",
+            "Microsoft.Windows.SDK.Contracts": "[10.0.19041.1, )",
+            "Microsoft.WindowsAppSDK": "[1.4.230913002, )",
+            "Microsoft.Xaml.Behaviors.WinUI.Managed": "[2.0.9, )",
+            "Microsoft.Xaml.Behaviors.Wpf": "[1.1.39, )",
+            "ModernWpfUI": "[0.9.4, )",
+            "Moq": "[4.18.4, )",
+            "MSTest.TestAdapter": "[3.1.1, )",
+            "MSTest.TestFramework": "[3.1.1, )",
+            "Newtonsoft.Json": "[13.0.1, )",
+            "NLog": "[5.0.4, )",
+            "NLog.Extensions.Logging": "[5.0.4, )",
+            "NLog.Schema": "[5.0.4, )",
+            "ScipBe.Common.Office.OneNote": "[3.0.1, )",
+            "SharpCompress": "[0.33.0, )",
+            "StreamJsonRpc": "[2.14.24, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.507, )",
+            "System.CommandLine": "[2.0.0-beta4.22272.1, )",
+            "System.ComponentModel.Composition": "[7.0.0, )",
+            "System.Configuration.ConfigurationManager": "[6.0.0, )",
+            "System.Data.OleDb": "[7.0.0, )",
+            "System.Drawing.Common": "[7.0.0, )",
+            "System.IO.Abstractions": "[17.2.3, )",
+            "System.IO.Abstractions.TestingHelpers": "[17.2.3, )",
+            "System.Management": "[7.0.2, )",
+            "System.Reactive": "[6.0.0-preview.9, )",
+            "System.Runtime.Caching": "[7.0.0, )",
+            "System.ServiceProcess.ServiceController": "[7.0.1, )",
+            "UnicodeInformation": "[2.6.0, )",
+            "UnitsNet": "[4.145.0, )",
+            "Vanara.PInvoke.Shell32": "[3.4.11, )",
+            "Vanara.PInvoke.User32": "[3.4.11, )",
+            "WinUIEx": "[2.2.0, )",
+            "WPF-UI": "[3.0.0-preview.4, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[7.0.11, 7.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win10-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
